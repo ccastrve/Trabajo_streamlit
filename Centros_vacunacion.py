@@ -17,10 +17,12 @@ if (opc_dep == 'TODOS'):
         total = df_cv['id_centro_vacunacion'].count()
         st.write('Total de centros de vacunación: {}'.format(total))        
         st.map(df_cv)
+        st.dataframe(df_cv)
 else:
         df_filtrado = df_cv[df_cv['departamento'] == opc_dep]
         total = df_filtrado['id_centro_vacunacion'].count()
         st.write('Total de centros de vacunación: {}'.format(total))        
         st.map(df_filtrado)
+        st.dataframe(df_filtrado)
 
 
