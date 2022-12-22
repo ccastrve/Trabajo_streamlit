@@ -1,5 +1,7 @@
 import streamlit as st
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 import plotly.express as px
 
 
@@ -63,4 +65,6 @@ fig.update_yaxes(categoryorder = 'total ascending') #ordenar barras
 st.write(fig)
 
 st.write('')
+
+
 
