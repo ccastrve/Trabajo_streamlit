@@ -28,7 +28,7 @@ if (opc_dep == 'TODOS'):
 else:
         df_filtrado = df_cv[df_cv['departamento'] == opc_dep]
         total = df_filtrado['id_centro_vacunacion'].count()
-        st.write('Total de centros de vacunación: {}'.format(total))        
+        st.write('#### Total de centros de vacunación: {}'.format(total))        
         st.map(df_filtrado)
         st.write('Fuente: https://www.datosabiertos.gob.pe/dataset/centros-de-vacunacion')
         st.write('')
