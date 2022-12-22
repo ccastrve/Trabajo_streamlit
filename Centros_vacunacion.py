@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-#import matplotlib.pyplot as plt
 import plotly.express as px
 
 
@@ -55,7 +54,7 @@ fig.update_traces(textposition='outside', textfont_size = 14)
 #para colocar los números fuera de las barras
 fig.update_traces(texttemplate='%{text:.2s}')
 
-fig.update_layout(font=dict(size=16), showlegend=False, #ocultra leyendas
+fig.update_layout(font=dict(size=18), showlegend=False, #ocultra leyendas
                   title='Número de centros de vacunación por departamento',
                   xaxis=dict(showticklabels=False),
                   yaxis_tickfont_size=14) #ocultar ticks
