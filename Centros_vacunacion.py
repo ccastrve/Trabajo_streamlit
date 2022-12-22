@@ -1,3 +1,4 @@
+from turtle import width
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -50,9 +51,9 @@ fig = px.bar(barras_cv, y = 'departamento', x = 'numero de centros de vacunacion
              orientation='h', labels={"departamento":"",
                                       "numero de centros de vacunacion":''})
 
-fig.update_traces(textposition='outside', textfont_size = 14)
+fig.update_traces(textposition='outside', textfont_size = 13)
 #para colocar los números fuera de las barras
-fig.update_traces(texttemplate='%{text:.2s}')
+#fig.update_traces(texttemplate='%{text:.3s}')
 
 fig.update_layout(font=dict(size=18), showlegend=False, #ocultra leyendas
                   title='Número de centros de vacunación por departamento',
