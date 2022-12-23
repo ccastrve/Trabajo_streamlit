@@ -6,6 +6,10 @@ Se puede seleccionar el departamentos para ver los centros de vacación especifi
 
 Asimismo, se muestra un gráfico de barras comparativo de los centros de vacunación por departamento.
 
+La aplicación web fue desarrollada en streamlit y puede visualizarse en el siguiente enlace: 
+
+https://ccastrve-trabajo-streamlit-centros-vacunacion-dnqghl.streamlit.app/
+
 Los datos fueron obtenidos desde el siguiente repositorio del estado peruano.
 
 https://www.datosabiertos.gob.pe/dataset/centros-de-vacunacion
